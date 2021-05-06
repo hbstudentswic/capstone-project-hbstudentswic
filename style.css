@@ -7,3 +7,16 @@ body {
 table {
   border: 1px solid;
 }
+
+.flex {
+  display: flex;
+  gap: 10px;
+}
+
+.flex--justify-center {
+  justify-content: center;
+}
+
+.flex--column {
+  flex-direction: column;
+}
