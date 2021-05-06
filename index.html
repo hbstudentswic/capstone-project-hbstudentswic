@@ -16,17 +16,40 @@
   <body>
     <h1>Game Collection Tracker</h1>
     <form>
-      <label for="game-nam">Enter Game Name</label>
-      <input type="text" id="game-nam" />
-      <label for="game-sys">Enter Game System</label>
-      <input type="text" id="game-sys" />
-      <label for="price-payed">Enter Price Payed</label>
-      <input type="number" id="price-payed" />
-      <label for="valued-price">Enter Valued Price</label>
-      <input type="number" id="valued-price" />
-      <label for="store-name">Enter Store Name</label>
-      <input type="text" id="store-name" />
-      <button type="submit">Add Game</button>
+      <div>
+        <label for="game-nam">Enter Game Name</label>
+        <input type="text" name="gam-nam" id="game-nam" />
+      </div>
+      <div>
+        <label for="game-sys">Enter Game System</label>
+        <input type="text" name="gam-sys" id="game-sys" />
+      </div>
+      <div>
+        <label for="price-payed">Enter Price Payed</label>
+        <input type="number" name="price-payed" id="price-payed" />
+      </div>
+      <div>
+        <label for="valued-price">Enter Valued Price</label>
+        <input type="number" name="valued-price" id="valued-price" />
+      </div>
+      <div>
+        <label for="store-name">Enter Store Name</label>
+        <input type="text" name="store-name" id="store-name" />
+      </div>
+      <div>
+        <button type="submit">Add Game</button>
+      </div>
+      <div>
+        <table>
+          <tr>
+            <th>Game Title</th>
+            <th>Game System</th>
+            <th>Price Payed</th>
+            <th>Valued Price</th>
+            <th>Store Name</th>
+          </tr>
+        </table>
+      </div>
     </form>
     <script src="./scripts.js" type="module"></script>
   </body>
