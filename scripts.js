@@ -1,4 +1,4 @@
-function addInfoRow() {
+function createRow() {
   const gamename = document.querySelector('#game-nam').value;
   const gamesystem = document.querySelector('#game-sys').value;
   const pricepayed = document.querySelector('#price-payed').value;
@@ -24,5 +24,5 @@ function addInfoRow() {
 
 document.querySelector('form').addEventListener('submit', event => {
   event.preventDefault();
-  addInfoRow();
+  createRow();
 });
