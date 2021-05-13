@@ -5,6 +5,7 @@ const gameList = [
     pricepayed: '$7',
     valuedprice: '$9',
     storename: 'Ebay',
+    id: 1,
   },
   {
     gametitle: 'Ms. Pac-Man',
@@ -12,6 +13,7 @@ const gameList = [
     pricepayed: '$10',
     valuedprice: '$6',
     storename: 'Slackers',
+    id: 2,
   },
 ];
 
