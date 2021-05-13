@@ -19,9 +19,13 @@ const gameList = [
 
 const tbody = document.querySelector('tbody');
 const template = document.querySelector('template');
+const valuedpricedisplay = document.getElementById('tvp');
+const pricepayeddisplay = document.getElementById('tpp');
 
 function render() {
   tbody.innerText = ''; // This part here will prevent the table from duplicating items already displayed in the table.
+  valuedpricedisplay.innerText = '';
+  pricepayeddisplay.innerText = '';
   gameList.forEach(game => {
     const newRow = template.content.cloneNode(true);
     const tds = newRow.querySelectorAll('td');
@@ -47,4 +51,20 @@ document.querySelector('form').addEventListener('submit', event => {
     id,
   });
   render();
+});
+
+document.getElementById('dtpp').addEventListener('click', () => {
+  const totalValue = gameList.reduce(
+    (total, { pricepayed }) => total + Number(pricepayed.slice(1)),
+    0,
+  );
+  pricepayeddisplay.innerHTML = totalValue;
+});
+
+document.getElementById('dtvp').addEventListener('click', () => {
+  const totalValue = gameList.reduce(
+    (total, { valuedprice }) => total + Number(valuedprice.slice(1)),
+    0,
+  );
+  valuedpricedisplay.innerHTML = totalValue;
 });
