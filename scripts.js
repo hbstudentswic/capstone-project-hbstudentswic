@@ -21,6 +21,7 @@ const tbody = document.querySelector('tbody');
 const template = document.querySelector('template');
 
 function render() {
+  tbody.innerText = ''; // This part here will prevent the table from duplicating items already displayed in the table.
   gameList.forEach(game => {
     const newRow = template.content.cloneNode(true);
     const tds = newRow.querySelectorAll('td');
