@@ -14,3 +14,20 @@ const gameList = [
     storename: 'Slackers',
   },
 ];
+
+const tbody = document.querySelector('tbody');
+const template = document.querySelector('template');
+
+function render() {
+  gameList.forEach(game => {
+    const newRow = template.content.cloneNode(true);
+    const tds = newRow.querySelectorAll('td');
+    tds[0].innerText = game.gametitle;
+    tds[1].innerText = game.systemname;
+    tds[2].innerText = game.pricepayed;
+    tds[3].innerText = game.valuedprice;
+    tds[4].innerText = game.storename;
+    tbody.appendChild(newRow);
+  });
+}
+render();
