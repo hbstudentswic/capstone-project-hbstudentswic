@@ -45,5 +45,5 @@ document.querySelector('form').addEventListener('submit', event => {
     storename: event.target.elements[4].value,
     id,
   });
-  render(gameList);
+  render();
 });
