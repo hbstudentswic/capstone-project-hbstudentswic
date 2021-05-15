@@ -68,3 +68,8 @@ document.getElementById('dtvp').addEventListener('click', () => {
   );
   valuedpricedisplay.innerHTML = `$${totalValue}`;
 });
+
+document.getElementById('reset-button').addEventListener('click', () => {
+  gameList.length = 0;
+  render();
+});
