@@ -3,6 +3,7 @@ th,
 td {
   background-color: #3792cb;
   border: 1px solid;
+  text-align: center;
   width: 700px;
 }
 
@@ -12,7 +13,7 @@ body {
 }
 
 h1 {
-  border: 1px dotted;
+  color: #1d2951;
 }
 
 button {
