@@ -58,7 +58,7 @@ document.getElementById('dtpp').addEventListener('click', () => {
     (total, { pricepayed }) => total + Number(pricepayed.slice(1)),
     0,
   );
-  pricepayeddisplay.innerHTML = totalValue;
+  pricepayeddisplay.innerHTML = `$${totalValue}`;
 });
 
 document.getElementById('dtvp').addEventListener('click', () => {
@@ -66,5 +66,5 @@ document.getElementById('dtvp').addEventListener('click', () => {
     (total, { valuedprice }) => total + Number(valuedprice.slice(1)),
     0,
   );
-  valuedpricedisplay.innerHTML = totalValue;
+  valuedpricedisplay.innerHTML = `$${totalValue}`;
 });
