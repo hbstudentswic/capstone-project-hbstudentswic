@@ -2,15 +2,15 @@ const gameList = [
   {
     gametitle: 'Tetris',
     systemname: 'Game Boy',
-    pricepayed: '$7',
-    valuedprice: '$9',
+    pricepayed: '7',
+    valuedprice: '9',
     storename: 'Ebay',
   },
   {
     gametitle: 'Ms. Pac-Man',
     systemname: 'Sega Genesis',
-    pricepayed: '$10',
-    valuedprice: '$6',
+    pricepayed: '10',
+    valuedprice: '6',
     storename: 'Slackers',
   },
 ];
@@ -29,8 +29,8 @@ function render() {
     const tds = newRow.querySelectorAll('td');
     tds[0].innerText = game.gametitle;
     tds[1].innerText = game.systemname;
-    tds[2].innerText = game.pricepayed;
-    tds[3].innerText = game.valuedprice;
+    tds[2].innerText = `$${game.pricepayed}`;
+    tds[3].innerText = `$${game.valuedprice}`;
     tds[4].innerText = game.storename;
     tbody.appendChild(newRow);
   });
@@ -51,7 +51,7 @@ document.querySelector('form').addEventListener('submit', event => {
 
 document.getElementById('dtpp').addEventListener('click', () => {
   const totalValue = gameList.reduce(
-    (total, { pricepayed }) => total + Number(pricepayed.slice(1)),
+    (total, { pricepayed }) => total + Number(pricepayed),
     0,
   );
   pricepayeddisplay.innerHTML = `$${totalValue}`;
@@ -59,7 +59,7 @@ document.getElementById('dtpp').addEventListener('click', () => {
 
 document.getElementById('dtvp').addEventListener('click', () => {
   const totalValue = gameList.reduce(
-    (total, { valuedprice }) => total + Number(valuedprice.slice(1)),
+    (total, { valuedprice }) => total + Number(valuedprice),
     0,
   );
   valuedpricedisplay.innerHTML = `$${totalValue}`;
