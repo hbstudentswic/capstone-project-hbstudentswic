@@ -6,6 +6,19 @@ td {
   width: 700px;
 }
 
+body {
+  background-color: #296d98;
+  color: #0e2433;
+}
+
+h1 {
+  border: 1px dotted;
+}
+
+button {
+  background-color: #456bfe;
+}
+
 .flex {
   display: flex;
   gap: 10px;
@@ -21,17 +34,4 @@ td {
 
 .text-center {
   text-align: center;
-}
-
-body {
-  background-color: #296d98;
-  color: #0e2433;
-}
-
-h1 {
-  border: 1px dotted;
-}
-
-button {
-  background-color: #456bfe;
 }
