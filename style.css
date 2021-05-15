@@ -1,6 +1,7 @@
 table,
 th,
 td {
+  background-color: #3792cb;
   border: 1px solid;
   width: 700px;
 }
@@ -20,4 +21,17 @@ td {
 
 .text-center {
   text-align: center;
+}
+
+body {
+  background-color: #296d98;
+  color: #0e2433;
+}
+
+h1 {
+  border: 1px dotted;
+}
+
+button {
+  background-color: #456bfe;
 }
