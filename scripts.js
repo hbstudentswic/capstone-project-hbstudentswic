@@ -5,7 +5,6 @@ const gameList = [
     pricepayed: '$7',
     valuedprice: '$9',
     storename: 'Ebay',
-    id: 1,
   },
   {
     gametitle: 'Ms. Pac-Man',
@@ -13,7 +12,6 @@ const gameList = [
     pricepayed: '$10',
     valuedprice: '$6',
     storename: 'Slackers',
-    id: 2,
   },
 ];
 
@@ -41,14 +39,12 @@ render();
 
 document.querySelector('form').addEventListener('submit', event => {
   event.preventDefault();
-  const id = Date.now();
   gameList.push({
     gametitle: event.target.elements[0].value,
     systemname: event.target.elements[1].value,
     pricepayed: event.target.elements[2].value,
     valuedprice: event.target.elements[3].value,
     storename: event.target.elements[4].value,
-    id,
   });
   render();
 });
