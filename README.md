@@ -9,6 +9,7 @@
 - [Acknowledgements](#acknowledgements)
 
 ## Overview
+
 https://zealous-gates-8ea835.netlify.app/
 Working on this project started off very challenging for me, I was using table set ups that worked but would not help in the long run. However, once I reworked the JS to include the Array and used table/template to display my table on the page, things got a lot easier. Overall I would say I had a great time working on this. I have improved on keeping my code organized, working with arrays and callback functions, and flexbox. The biggest advice I used for this project was simply just to work through it one step at a time.
 
@@ -22,10 +23,10 @@ This application allows the user to keep track of their video game collection. I
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/hunter-bossetto-6ba147212)
-[dev.to](https://dev.to/hbstudentswic)
+- [LinkedIn](https://www.linkedin.com/in/hunter-bossetto-6ba147212)
+- [dev.to](https://dev.to/hbstudentswic)
 
 ## Acknowledgements
 
-[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web)
-[tutorialspoint](https://www.tutorialspoint.com/in-javascript-how-to-empty-an-array)
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web)
+- [tutorialspoint](https://www.tutorialspoint.com/in-javascript-how-to-empty-an-array)
