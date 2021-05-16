@@ -19,7 +19,7 @@ Working on this project started off very challenging for me, I was using table s
 
 ## Features
 
-This application allows the user to keep track of their video game collection. It allows the user to visually see their collection in the table and see how much money they had spent to have everything and how much money the collection itself is worth. When the user first enters the page, two games will already be loaded in to show the user how the application works, however at anytime, the user may simply erase all contents of the table. The user can, most importantly, add their own games to the table.
+This application allows the user to keep track of their video game collection. It allows the user to visually see their collection in the table and see how much money they had spent to have everything and how much money the collection itself is worth. When the user first enters the page, two games will already be loaded in to show the user how the application works, however at anytime, the user may simply erase all contents of the table. The user can, most importantly, add their own games to the table. When the user is entering a new game into the table, the user is required to include all information listed.
 
 ## Contact
 
