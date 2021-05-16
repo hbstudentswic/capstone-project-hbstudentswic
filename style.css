@@ -20,6 +20,10 @@ button {
   background-color: #456bfe;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .flex {
   display: flex;
   gap: 10px;
@@ -31,8 +35,4 @@ button {
 
 .flex--column {
   flex-direction: column;
-}
-
-.text-center {
-  text-align: center;
 }
