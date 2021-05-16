@@ -1,4 +1,4 @@
-# Name of Project
+# Game Collection Tracker
 
 ## Table of Contents
 
@@ -10,25 +10,22 @@
 
 ## Overview
 
-<!-- TODO: Add a screenshot of the live project.
-    1. Link to a 'live demo.'
-    2. Describe your overall experience in a couple of sentences.
-    3. List a few specific technical things that you learned or improved on.
-    4. Share any other tips or guidance for others attempting this or something similar.
- -->
+Working on this project started off very challenging for me, I was using table set ups that worked but would not help in the long run. However, once I reworked the JS to include the Array and used table/template to display my table on the page, things got a lot easier. Overall I would say I had a great time working on this. I have improved on keeping my code organized, working with arrays and callback functions, and flexbox. The biggest advice I used for this project was simply just to work through it one step at a time.
 
 ### Built With
 
-<!-- TODO: List any MAJOR libraries/frameworks (e.g. React, Tailwind) with links to their homepages. -->
+[Visual Studio Code](https://code.visualstudio.com/)
 
 ## Features
 
-<!-- TODO: List what specific 'user problems' that this application solves. -->
+This application allows the user to keep track of their video game collection. It allows the user to visually see their collection in the table and see how much money they had spent to have everything and how much money the collection itself is worth. When the user first enters the page, two games will already be loaded in to show the user how the application works, however at anytime, the user may simply erase all contents of the table. The user can, most importantly, add their own games to the table.
 
 ## Contact
 
-<!-- TODO: Include icons and links to your RELEVANT, PROFESSIONAL 'DEV-ORIENTED' social media. LinkedIn and dev.to are minimum. -->
+[LinkedIn](https://www.linkedin.com/in/hunter-bossetto-6ba147212)
+[dev.to](https://dev.to/hbstudentswic)
 
 ## Acknowledgements
 
-<!-- TODO: List any blog posts, tutorials or plugins that you may have used to complete the project. Only list those that had a significant impact. Obviously, we all 'Google' stuff while working on our things, but maybe something in particular stood out as a 'major contributor' to your skill set for this project. -->
+[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web)
+[tutorialspoint](https://www.tutorialspoint.com/in-javascript-how-to-empty-an-array)
