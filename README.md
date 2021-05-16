@@ -30,3 +30,4 @@ This application allows the user to keep track of their video game collection. I
 
 - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web)
 - [tutorialspoint](https://www.tutorialspoint.com/in-javascript-how-to-empty-an-array)
+- [w3schools](https://www.w3schools.com/tags/att_input_type_number.asp)
