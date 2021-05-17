@@ -59,7 +59,7 @@ document.getElementById('dtvp').addEventListener('click', () => {
 // The two event listeners on Line 43 and 51 will run all the items in the array to get a total specific price and display it to the user with the paragraph tag on the page.
 
 document.getElementById('reset-button').addEventListener('click', () => {
-  gameList.length = 0;
+  gameList.length = 0; // tutorialspoint
   // Line 62 will empty the contents of the array and thus the table whenever the user clicks the "Reset" button.
   render();
 });
